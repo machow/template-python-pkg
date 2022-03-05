@@ -50,7 +50,8 @@ jobs:
           # install package with dev dependencies
           python -m pip install .[dev]
 
-        env: REQUIREMENTS: ${{ matrix.requirements }}
+        env:
+          REQUIREMENTS: ${{ matrix.requirements }}
       - name: Run tests
         run: |
           pytest template_python_pkg

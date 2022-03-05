@@ -9,9 +9,10 @@ del _v
 
 # Example class ---------------------------------------------------------------
 
-class ExampleClass: 
+
+class ExampleClass:
     """Class that does not do anything.
-    
+
     Parameters
     ----------
     x: str, optional

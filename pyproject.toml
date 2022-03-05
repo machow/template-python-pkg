@@ -12,4 +12,3 @@ testpaths = [
 ]
 
 [tool.setuptools_scm]
-
