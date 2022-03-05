@@ -18,6 +18,7 @@ jobs:
   test-python:
     name: "Test Python Version"
     needs: ["run-if"]
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
